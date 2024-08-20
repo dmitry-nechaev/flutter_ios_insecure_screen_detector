@@ -25,13 +25,15 @@ apply plugin: 'com.android.application'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
 android {
-    compileSdkVersion 30
+    namespace "com.staking_power.ios_insecure_screen_detector_example"
+
+    compileSdkVersion 35
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
         applicationId "com.staking_power.ios_insecure_screen_detector_example"
         minSdkVersion 16
-        targetSdkVersion 30
+        targetSdkVersion 35
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
     }

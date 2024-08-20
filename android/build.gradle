@@ -22,7 +22,9 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 30
+    namespace "com.staking_power.ios_insecure_screen_detector"
+
+    compileSdkVersion 35
 
     defaultConfig {
         minSdkVersion 16
